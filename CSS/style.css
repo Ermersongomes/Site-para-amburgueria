@@ -84,20 +84,24 @@ body {
   justify-content: space-between;
   gap: 20px; /* Espaço entre os elementos, ajuste conforme necessário */
 }
-
+.menu-container{
+  display: flex;
+  align-items: center;
+  
+}
 @keyframes wave {
   0%, 10% {
-      font-size: 10px;
+      font-size: 20px;
       filter: blur(0px);
   }
   10% {
       font-size: 30px;
-      filter: blur(4px);
+      filter: blur(2px);
   }
 }
 
 .wave-effect {
-  animation: wave 3s ease-in-out forwards;
+  animation: wave 2s ease-in-out forwards;
 }
 
 /* Aplicando um atraso diferente para cada letra */
@@ -162,9 +166,9 @@ body {
   animation-delay: 2s;
 }
 .wave-effect:last-child {
-  animation-delay: 2s; /* Atraso de 5 segundos após a última letra */
+  animation-delay: 2.1s; /* Atraso de 5 segundos após a última letra */
 }
 h1 {
   animation: none; /* Remover a animação inicial */
-  animation: wave 18s linear 15s infinite; /* Iniciar a animação após 15s e repetir a cada 18s */
+  
 }
