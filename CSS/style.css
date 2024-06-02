@@ -31,8 +31,7 @@
   display: flex;
   align-items: center; /* Alinha verticalmente ao centro */
   justify-content: space-between; /* Distribui espaço entre os elementos */
-  padding: 10px;
-  
+  padding: 10px;  
   background-color:#a54c18e7; /* Cor de fundo opcional */
   color: white; /* Cor do texto */
 }
@@ -51,6 +50,7 @@ nav > ul > li > a{
   font-family: "Merriweather", serif;
   color: aliceblue;
 }
+/*resolver esse po style de paragrafo*/
 p{
   margin-left: 10px;
   padding: 10px 50px 10px 50px;
@@ -79,6 +79,8 @@ body {
 }
 
 .main-container {
+  height: 450px;
+  background-color:#a54c18e7;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -93,6 +95,9 @@ body {
   display: flex;
   margin-right: 500px;
   
+}
+.img-menu{
+  height: 335px;
 }
 .discpriton-burguer01{
   width: 400px;
