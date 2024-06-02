@@ -84,11 +84,25 @@ body {
   justify-content: space-between;
   gap: 20px; /* Espaço entre os elementos, ajuste conforme necessário */
 }
-.menu-container{
+.menu-container-left{
   display: flex;
-  align-items: center;
+  margin-left: 500px;
   
 }
+.menu-container-right{
+  display: flex;
+  margin-right: 500px;
+  
+}
+.discpriton-burguer01{
+  width: 400px;
+  height: 300px;
+}
+.discpriton-burguer02{
+  width: 400px;
+  height: 300px;
+}
+
 @keyframes wave {
   0%, 10% {
       font-size: 20px;
