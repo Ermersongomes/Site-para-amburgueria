@@ -45,11 +45,34 @@ nav{
 nav > ul > li{
   display: inline;
   margin-right: 100px
-}
+}/*
 nav > ul > li > a{
   text-decoration: none;
   font-family: "Merriweather", serif;
   color: aliceblue;
+}
+ a:hover{
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  text-decoration: underline;
+  padding: 1px;
+
+}*/
+.botton{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 10px;
+  
+}
+.botton:hover{
+  background-color: #ef6c20e7;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
 }
 .p-introduction{
   font-family:"Oswald";
